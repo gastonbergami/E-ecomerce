@@ -1,10 +1,9 @@
 import react from 'react';
 import {Navbar,Nav,NavDropdown,Form,FormControl,Button} from 'react-bootstrap';
-import './index.css';
+//import './Navbar.css';
 
-const Menu = () =>{
+const NavBar = () =>{
     return(
-        <>
         <Navbar bg="light" expand="lg">
             <Navbar.Brand href="#home">E-ecomerce</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,10 +28,10 @@ const Menu = () =>{
         
         
         
-        </>
+        
     )
 }
 
 
 
-export default Menu;
+export default NavBar;

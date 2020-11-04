@@ -7,13 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import './index.css';
-import Menu from './componets/Menu';
+import App from './App';
 
 
 
 
 ReactDOM.render( 
-  <Menu/>,
+  <App/>,
   document.getElementById('root')
 );
 
